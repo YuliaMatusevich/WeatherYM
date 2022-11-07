@@ -64,6 +64,7 @@ public class YMTest {
     //3.  Подтвердить, что вы перешли на страницу со ссылкой https://openweathermap.org/guide
     // и что title этой страницы OpenWeatherMap API guide - OpenWeatherMap
 
+
     @Test
     public void testTitle_WhenRedirectingToGuidePage() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\matu\\GoogleDriver\\chromedriver_win32\\chromedriver.exe");
